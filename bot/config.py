@@ -1,7 +1,7 @@
 from os import environ as env
 
 class Telegram:
-    API_ID = int(env.get("TELEGRAM_API_ID", 12345))
+    API_ID = int(env.get("TELEGRAM_API_ID", 21720330))
     API_HASH = env.get("TELEGRAM_API_HASH", "xyz")
     OWNER_ID = int(env.get("OWNER_ID", 5530237028))
     ALLOWED_USER_IDS = env.get("ALLOWED_USER_IDS", "").split()
@@ -54,3 +54,4 @@ LOGGER_CONFIG_JSON = {
         }
     }
 }
+
